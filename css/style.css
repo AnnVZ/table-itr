@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(45deg, #c7e2ce, #bdc0e0) no-repeat center top / cover;
+    background-attachment: fixed;
+}
+
+section {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.auth-option {
+    margin-bottom: 70px;
+}
